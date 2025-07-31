@@ -1,5 +1,13 @@
-*tsv
-*RData
-*csv
+ 
+*.tsv
+*.RData
+*.csv
 *.tsv.gz
 *.tar
+*.RDataTmp
+.RData
+.RHistory
+.Rproj.user/
+*.Rproj
+
+.RDataTmp
