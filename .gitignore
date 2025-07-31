@@ -1,0 +1,5 @@
+*tsv
+*RData
+*csv
+*.tsv.gz
+*.tar
