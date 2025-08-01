@@ -67,10 +67,8 @@ bcr_frames <- lapply(bcr_files, function(file_path) {
   }
   
   # --- CRITICAL: Add the 'reads' column ---
-  # *** REPLACE "YOUR_ACTUAL_READS_COLUMN_NAME" with the name you find in your files ***
-  # If you found a column named 'umis', use: if ("umis" %in% colnames(df)) { df$reads <- df$umis }
-  # If you found a column named 'clone_reads', use: if ("clone_reads" %in% colnames(df)) { df$reads <- df$clone_reads }
-  # etc.
+
+
   if ("UMI_count" %in% colnames(df)) { # Replace "UMI_count" with your actual column name
     df$reads <- df$UMI_count
   } else if ("duplicate_count" %in% colnames(df)) { # Common alternative
