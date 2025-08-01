@@ -1,4 +1,3 @@
-y 
 *.tsv
 *.RData
 *.csv
@@ -9,5 +8,4 @@ y
 .RHistory
 .Rproj.user/
 *.Rproj
-
 .RDataTmp
