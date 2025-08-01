@@ -1,4 +1,4 @@
-library(scRepertoire) # Make sure scRepertoire is loaded
+library(scRepertoire)
 
 # --- Step 1: Get and Filter Files ---
 # This will find all .tsv and .tsv.gz files in the current directory
